@@ -1,0 +1,28 @@
+{
+  "name": "react-native-animated-flatlist",
+  "version": "0.0.1",
+  "description": "Animated Flatlist for React-Native",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakogegia/react-native-animated-flatlist.git"
+  },
+  "keywords": [
+    "react-native",
+    "animated-flatlist"
+  ],
+  "author": "shalva.gegia@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakogegia/react-native-animated-flatlist/issues"
+  },
+  "homepage": "https://github.com/shakogegia/react-native-animated-flatlist#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "lodash": "*"
+  }
+}
