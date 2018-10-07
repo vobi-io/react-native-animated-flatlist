@@ -1,6 +1,9 @@
 # React Native Animated Flatlist
 Animated Flatlist for React-Native
 
+[View demo on Snack](https://snack.expo.io/@shakogegia/react-native-animated-flatlist-demo)
+
+
 <img src="./screenshots/demo.gif" style="margin:auto" height="500" />
 
 ### Install
