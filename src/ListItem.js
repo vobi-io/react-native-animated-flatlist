@@ -13,7 +13,6 @@ class ListItem extends Component {
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.isDeleted !== this.props.isDeleted) {
-      console.log(nextProps.isDeleted, nextProps.id)
       this.setState({ isVisible: nextProps.isDeleted === true ? false : true })
       // this.forceUpdate()
       this.animatedRef.startAnimation()
@@ -22,11 +21,9 @@ class ListItem extends Component {
   
   animationEnded = () => {
     const { isVisible } = this.state
-    // console.log(isVisible)
     if (!isVisible) {
       this.setState({ isVisibleView: false })
     }
-    console.log("aaaaaa")
   }
 
   render() {

@@ -10,7 +10,6 @@ export default class AnimatedFlatlist extends React.Component {
   }
 
   componentWillMount() {
-    console.log('componentWillMount')
     if(!this.state.data.length) {
       this.setState({data: this.props.items})
     }
